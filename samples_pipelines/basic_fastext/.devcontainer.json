@@ -1,11 +1,12 @@
 {
 	"name": "Python 3 - Miniconda",
 	"context": "..",
-	"dockerFile": "Dockerfile",
+	"image":"littlehaes/azureml-demo"
+	// "dockerFile": "Dockerfile",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/zsh",
+		"terminal.integrated.shell.linux": "/bin/bash",
 		"python.pythonPath": "/home/vsonline/conda/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
@@ -14,7 +15,8 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-python.python"
+		"ms-python.python",
+		"azureml-module-tool.azureml-module-tools"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -22,7 +24,10 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "python --version",
-
+	
+	//
+	//"containerUser":"vsonline",
+	
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vsonline"
 }
