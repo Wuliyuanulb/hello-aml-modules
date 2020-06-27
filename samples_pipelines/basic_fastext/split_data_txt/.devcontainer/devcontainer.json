@@ -3,12 +3,12 @@
     "extensions": [
         "ms-python.python"
     ],
-    "image": "fundamental28a5918e8.azurecr.io/azureml/azureml_a7918253cee81326d5bf1d9cc090860e",
+    "image": "fundamental33c005c1f.azurecr.io/azureml/azureml_396d0b0f05941824f6e48abd6a57574f",
     "mounts": [
-        "source=D:\\MS\\tmp\\split_data_txt\\.debug\\Split Data Txt\\input\\input_dir,target=/workspace/split_data_txt/.debug/Split Data Txt/input/input_dir,type=bind,consistency=cached",
-        "source=D:\\MS\\tmp\\split_data_txt\\.debug\\Split Data Txt\\output\\training_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/training_data_output,type=bind,consistency=cached",
-        "source=D:\\MS\\tmp\\split_data_txt\\.debug\\Split Data Txt\\output\\validation_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/validation_data_output,type=bind,consistency=cached",
-        "source=D:\\MS\\tmp\\split_data_txt\\.debug\\Split Data Txt\\output\\test_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/test_data_output,type=bind,consistency=cached"
+        "source=d:\\MS\\azureml-designer-demo\\split_data_txt\\.debug\\Split Data Txt\\input\\input_dir,target=/workspace/split_data_txt/.debug/Split Data Txt/input/input_dir,type=bind,consistency=cached",
+        "source=d:\\MS\\azureml-designer-demo\\split_data_txt\\.debug\\Split Data Txt\\output\\training_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/training_data_output,type=bind,consistency=cached",
+        "source=d:\\MS\\azureml-designer-demo\\split_data_txt\\.debug\\Split Data Txt\\output\\validation_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/validation_data_output,type=bind,consistency=cached",
+        "source=d:\\MS\\azureml-designer-demo\\split_data_txt\\.debug\\Split Data Txt\\output\\test_data_output,target=/workspace/split_data_txt/.debug/Split Data Txt/output/test_data_output,type=bind,consistency=cached"
     ],
     "containerEnv": {},
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/split_data_txt,type=bind,consistency=delegated",
